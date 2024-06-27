@@ -1,0 +1,13 @@
+Explanation of Changes:
+- Increased Filters and Added More Layers: Added more filters (32, 64, and 128)
+    and additional convolutional layers to capture more complex features.
+
+- Batch Normalization: Added after each convolutional layer to stabilize the learning process
+    and improve performance.
+
+- Data Augmentation: Used to increase the diversity of the training data and
+    improve generalization.
+
+- Optimizer: Switched to Adam with a specific learning rate
+    for potentially better convergence. Increased Epochs:
+    Increased the number of epochs to allow the model more time to learn.

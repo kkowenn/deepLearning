@@ -1,0 +1,53 @@
+Dense Layer and Hidden Layer in Keras
+
+Dense Layer:
+- A dense layer (also called a fully connected layer) is a type of neural network layer
+where each neuron receives input from all the neurons of the previous layer.
+This means that every neuron in a dense layer is connected to every neuron in the previous layer,
+and each connection has its own weight.
+
+- In Keras, you can add a dense layer to a model using the `Dense` class,
+which allows you to specify the number of neurons and activation function.
+
+
+from keras.models import Sequential
+from keras.layers import Dense
+
+model = Sequential()
+model.add(Dense(units=128, activation='relu', input_dim=64))
+model.add(Dense(units=10, activation='softmax'))
+
+In this example, the first dense layer has 128 neurons with a ReLU activation function,
+and the second dense layer (output layer) has 10 neurons with a softmax activation function.
+
+Hidden Layer:
+- A hidden layer in a neural network is any layer that is not an input or output layer.
+    Hidden layers perform transformations on the inputs entering the network,
+    and these transformations are learned during training.
+- In Keras, a hidden layer is typically a dense layer,
+    but it can also be other types of layers like convolutional layers,
+    recurrent layers, etc.
+- The purpose of hidden layers is to capture complex patterns in the data by
+    applying non-linear transformations through activation functions.
+
+Example with Hidden Layers:
+
+from keras.models import Sequential
+from keras.layers import Dense
+
+model = Sequential()
+model.add(Dense(units=64, activation='relu', input_dim=100))  # First hidden layer
+model.add(Dense(units=64, activation='relu'))  # Second hidden layer
+model.add(Dense(units=10, activation='softmax'))  # Output layer
+
+In this example, the first and second dense layers are hidden layers,
+while the third dense layer is the output layer.
+
+Summary Note:
+Dense Layer: A fully connected neural network layer where every neuron in the layer
+    is connected to every neuron in the previous layer.
+    It is defined using the `Dense` class in Keras.
+
+Hidden Layer:Any layer in a neural network that is between the input and output layers.
+    Hidden layers can consist of dense layers or other types of layers and
+    are used to learn complex patterns in the data through non-linear transformations.

@@ -1,0 +1,36 @@
+1   what is the underfitting problem?
+    A model with too little capacity cannot learn the problem and
+    result in a model that does not generalize well.
+
+2   How to overcome the underfitting problem?
+    Increase Model Complexity:
+    more hidden layers.
+    Add more features:
+
+3   What is the overfitting problem?
+    a model with too much capacity can learn it too well and overfit the training dataset.
+    Both cases result in a model that does not generalize well.
+
+4   How to prevent or avoid overfitting in neural network?
+    Data Augmentation(for image data)
+    Dropout
+
+5   What is regularization in neural network?
+    Regularization in neural networks is a set of techniques used to prevent overfitting
+    and improve the generalization ability of the model.
+
+    ▪ The cross-entropy cost function:  is used to measure the performance of a classification
+        model whose output is a probability value between 0 and 1. The formula for binary classification
+
+    ▪ Regularization methods
+        ▪ Dropout: ignoring randomly selected neurons during each forward and backward pass,
+            dropout forces the network to learn redundant representations.
+
+        ▪ Early stopping: where the training process is halted before the model starts to overfit.
+            It monitors the model's performance on a validation set
+            and stops training when the performance stops improving.
+
+        ▪ Artificially expanding the training data:
+            ▪ Data augmentation: variety of transformations to the existing data: Flipping,
+                Rotation, Scaling, Translation, Color Jitter, Noise Injection
+

@@ -1,0 +1,52 @@
+Differences Between Artificial Intelligence, Machine Learning, and Deep Learning
+
+Artificial Intelligence (AI):
+- AI is a broad field that encompasses any technique
+    which enables computers to mimic human intelligence.
+- AI can include rule-based systems, decision trees
+    and other techniques that do not necessarily involve learning from data.
+
+Machine Learning (ML):
+- ML is a subset of AI that involves the use of algorithms
+    and statistical models to enable computers to perform tasks
+    without explicit instructions, relying instead on patterns and inference.
+- ML focuses on developing systems that can learn from and make predictions on data.
+
+- Examples include linear regression, decision trees, and support vector machines.
+
+Deep Learning (DL):
+- DL is a subset of ML that uses neural networks with many layers (deep networks)
+    to model complex patterns in data.
+- DL involves algorithms called neural networks,
+    which are designed to simulate the way the human brain operates.
+
+- Examples include convolutional neural networks (CNNs) for image recognition and recurrent neural networks (RNNs) for sequence data.
+
+Summary Note:
+AI: Broad field aiming to create machines that mimic human intelligence.
+ML: Subfield of AI focused on algorithms that learn from data.
+DL: Subfield of ML utilizing deep neural networks for complex data modeling.
+
+
+
+TensorFlow and Keras
+
+TensorFlow:
+- TensorFlow is an open-source machine learning framework developed by Google.
+- It provides a comprehensive ecosystem for developing, training,
+    and deploying ML models.
+- TensorFlow supports a wide range of tasks, including deep learning,
+    and can run on various hardware platforms such as CPUs, GPUs, and TPUs.
+- It is highly flexible and can be used for both research and production purposes.
+
+Keras:
+- Keras is an open-source neural network library written in Python
+    that runs on top of TensorFlow.
+- It provides a high-level API that makes it easy to build
+    and train deep learning models.
+- Keras simplifies the process of designing neural networks,
+    offering user-friendly functions for constructing layers,
+    loss functions, optimizers, and more.
+- Initially developed as a standalone library,
+    Keras has been integrated into TensorFlow,
+    making it the recommended high-level API for building models in TensorFlow.

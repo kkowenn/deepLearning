@@ -1,0 +1,27 @@
+Model Architecture
+
+Summary of Layers
+Total Number of Layers: 16
+Convolutional Layers: 6
+Max Pooling Layers: 3
+Dropout Layers: 4
+Flattening Layer: 1
+Fully Connected (Dense) Layers: 2
+Output Layer: 1 (included in the count of Dense layers)
+
+15 hidden layer
+1. Conv2D (32 filters)
+2. Conv2D (32 filters)
+3. MaxPooling2D
+4. Dropout (0.25)
+5. Conv2D (64 filters)
+6. Conv2D (64 filters)
+7. MaxPooling2D
+8. Dropout (0.25)
+9. Conv2D (128 filters)
+10. Conv2D (128 filters)
+11. MaxPooling2D
+12. Dropout (0.25)
+13. Flatten
+14. Dense (512 units)
+15. Dropout (0.5)

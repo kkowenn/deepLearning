@@ -1,0 +1,68 @@
+These layers are termed “fully connected” because each neuron in one layer is
+connected to every neuron in the preceding layer, creating a highly interconnected network.
+
+Weights and Bias Calculation
+
+   For a fully connected feed-forward neural network,
+we need to calculate the weights and biases for each layer.
+
+
+1. Input Layer to First Hidden Layer:
+   - Number of weights: 49 * 12 = 588
+   - Number of biases: 12
+
+2. First Hidden Layer to Second Hidden Layer:
+   - Number of weights: 12 * 12 = 144
+   - Number of biases: 12
+
+3. Second Hidden Layer to Output Layer:
+   - Number of weights: 12 * 8 = 96
+   - Number of biases: 8
+
+Total Weights and Biases:
+Total weights: 588 + 144 + 96 = 828
+Total biases: 12 + 12 + 8 = 32
+
+the network has 828 weights 32 biases
+
+
+b) Credit Assignment Path (CAP)
+
+   The Credit Assignment Path (CAP) refers to the longest path that information must
+travel from the input layer to the output layer in a neural network.
+It represents the depth of the network in terms of layers through
+which the signal passes.
+
+For the neural network in question:
+
+- Input Layer → First Hidden Layer → Second Hidden Layer → Output Layer
+
+This makes it a 3-layer CAP (not counting the input layer).
+
+c) Loss/Cost Function in NN
+
+   The loss or cost function in a neural network measures the difference between
+the predicted output by the network and the actual target values.
+It is a way to quantify how well or poorly the model is performing.
+During training, the goal is to minimize this loss function,
+which typically involves adjusting the weights and biases through backpropagation.
+Common loss functions include Mean Squared Error (MSE) for regression tasks
+and Cross-Entropy Loss for classification tasks.
+
+d) Is the Neural Network from Question a) a Deep Neural Network?
+
+A deep neural network is typically defined as a neural network with
+more than one hidden layer.
+
+In question a), the network has:
+- 1 input layer
+- 2 hidden layers
+- 1 output layer
+
+Since it has more than one hidden layer,
+this qualifies it as a deep neural network.
+Therefore,
+
+yes, the neural network from question a) is considered a deep neural network.
+The depth of a neural network is one of the factors that allow it to learn complex
+   representations, and having two hidden layers falls into the category of "deep."

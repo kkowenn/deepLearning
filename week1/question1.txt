@@ -1,0 +1,21 @@
+Artificial Intelligence (AI) is the field of computer science that aims to create machines capable of
+performing tasks requiring human intelligence,
+such as understanding language, recognizing images, solving problems, and making decisions.
+Within AI,
+
+Machine Learning (ML) is a branch that focuses on teaching computers to learn from data and improve their performance over
+time without explicit programming. ML includes types like supervised learning, where the computer learns from labeled data;
+unsupervised learning, where it finds patterns in unlabeled data; and reinforcement learning, where it learns by
+receiving rewards or punishments from its environment.
+
+Deep Learning (DL), a subfield of ML, uses neural networks with many layers to automatically discover patterns
+from large amounts of raw data, making it especially powerful for processing images, audio, and text.
+Tools like TensorFlow and Keras aid in building and training these models.
+
+
+TensorFlow, developed by Google, is an open-source software library for machine learning and deep learning,
+offering flexibility and scalability for various applications,
+
+Keras is a high-level API that simplifies the creation of deep learning models by providing
+easy-to-use building blocks and running on top of TensorFlow making it ideal for rapid prototyping
+and research.
